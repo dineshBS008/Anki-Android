@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin: 0 auto;
+	
+}
+#home
+{
+	background: url(../image/background.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.home
+{
+	height:750px;
+	width: 100%;
+	background: rgba(0,0,0,0.6)
+}
+.bg-light
+{
+	background:transparent !important;
+}
+
+.nav-item
+{
+	color:white;
+	margin: 10px;
+	font-weight: 600;
+	font-size: 18px;
+}
+#services
+{
+	padding-top: 50px;
+}
+
+nav ul li a
+{
+	color: white !important;
+}
+
+.home h1
+{
+	color: aliceblue !important;
+	font-weight: 700;
+	font-size: 60px;
+	padding-top: 262px;
+}
+.home pr
+{
+	color: aliceblue !important;
+	font-weight: 400;
+	font-size: 18px;
+	padding-top: 30px;
+}
+#About 
+{
+	padding-top: 75px;
+	
+}
+
+#About h3
+{
+	font-size:21px;
+	font-weight: 900;
+	color: rgba(0,0,0,1.00);
+	padding-bottom: 20px;
+	padding-top: 10px;
+	
+}
+.bg1 
+{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	
+	
+}
+.bg2 
+{
+	height: 400px !important;
+	width:auto;
+	overflow: hidden;
+	margin-top: 90px;
+}
+.bg2  .col-md-6 img
+{
+	height: 100%;
+	width: 100%;
+	
+}
+.bg4
+{
+  background: #f4f4f4;
+}
+.card
+{
+	position: relative;
+}
+
+.card-cover
+{
+	position: absolute;
+	top: 0px;
+	height: 0%;
+	width:100%;
+	display: none;	
+}
+.card:hover .card-cover
+{
+	display: block;
+	height: 100%;
+	background: #282828;
+	color: white;
+	transition: 5s;
+}
+#photos
+{
+	margin-top: 70px;
+}
+#contact
+{
+	background: #282828;
+	margin-top: 100px;
+}
+.bg10
+{
+	padding-bottom: 28px;
+	padding-top: 38px;
+
+}
+.btn-warning 
+{
+    margin-top: 36px;
+    margin-right: 33px;
+    color: black;
+    font-weight: 600;
+	margin-bottom: 2px;
+}
+.btn-success
+{
+	margin-top: -1px;
+	margin-right: 270px;
+}
+.dropdown-item:focus, .dropdown-item:hover
+{
+    color: #16181b;
+    text-decoration: none;
+    background-color: black;
+}
+.navbar li a.nav-link:hover
+{
+	color: yellow !important;
+}
+.fixed-top.scrolled
+ {
+	  	background-color: rgba(0,0,0, 0.70) !important;
+	  	transition-property: all;
+		transition-duration: 2s;
+		transition-timing-function: ease;
+		transition-delay: 0.33s;
+	  	border:0;
+	  	height: 70px;   
+}
+.carousel-item img
+{
+	height: 750px; 
+	width: 100%;
+	overflow: hidden;
+}
